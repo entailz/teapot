@@ -17,7 +17,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid var(--tp-outline-variant);
 }
 
 .photo-rail-header a {
@@ -52,9 +51,9 @@
   align-items: center;
   justify-content: center;
   background-color: var(--tp-accent-red);
-  color: #fff;
+  color: var(--tp-surface);
   font-size: 10px;
-  font-weight: 700;
+  font-weight: 500;
   min-width: 18px;
   height: 18px;
   border-radius: var(--shape-full);

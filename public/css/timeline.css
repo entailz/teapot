@@ -12,9 +12,6 @@
   background-color: transparent;
 }
 
-.timeline > div:not(:first-child) {
-  border-top: 1px solid var(--tp-outline-variant);
-}
 
 .timeline-header {
   width: 100%;
