@@ -843,11 +843,7 @@ impl ApiClient {
    }
 
    /// Translate a tweet using Kagi Translate API.
-   pub async fn kagi_translate(
-      &self,
-      tweet_id: &str,
-      kagi_token: &str,
-   ) -> Result<Translation> {
+   pub async fn kagi_translate(&self, tweet_id: &str, kagi_token: &str) -> Result<Translation> {
       use http_body_util::Full;
       use hyper_rustls::HttpsConnectorBuilder;
       use hyper_util::{

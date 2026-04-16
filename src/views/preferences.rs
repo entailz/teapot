@@ -1,4 +1,8 @@
-use maud::{Markup, PreEscaped, html};
+use maud::{
+   Markup,
+   PreEscaped,
+   html,
+};
 
 use crate::types::Prefs;
 

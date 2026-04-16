@@ -366,7 +366,7 @@ input::-webkit-datetime-edit-year-field:focus {
 
 .copy-prefs-btn .icon-copy:before {
   font-family: fontello;
-  content: "\e832";
+  content: "\e806";
   color: var(--tp-on-surface-variant);
 }
 
