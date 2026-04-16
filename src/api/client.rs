@@ -995,7 +995,7 @@ impl ApiClient {
                tweet_id: tweet.id.to_string(),
                color: String::new(),
             });
-            if photos.len() >= 16 {
+            if photos.len() >= 10 {
                return Ok(photos);
             }
          }
